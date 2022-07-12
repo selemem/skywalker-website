@@ -1,0 +1,72 @@
+<!Doctype html>
+<html lang= "en">
+    <head>
+        <meta charset="utf-8"/>
+        <title> Gustavo Selemem | 3042264 </title>
+        <link rel = "styleSheet" href ="Style.css"/>
+    </head>
+
+<div>
+
+<body>
+
+
+<section id="first-section-work">
+
+<nav id="menu">
+       <nav id="menu">
+         <ul>
+             <li> <a href= "Index.html" target="_blank"> Home </a> </li>
+             <li> <a href= "AboutMe.html" target="_blank"> About </a> </li>
+             <li> <a href= "MyHero.html" target="_blank"> Hero </a> </li>
+             <li> <a href= "Work.html" target="_blank"> Work </a> </li>
+             <li> <a href= "Influence.html" target="_blank"> Influence </a> </li>
+             <li> <a href= "Gallery.html" target="_blank"> Gallery </a> </li>
+             <li> <a href= "Contact.html" target="_blank"> Contact </a> </li>
+         </ul>
+       </nav>
+
+<img src="Media/Logo.png" width="64px" height="64px" alt = "Logo" title = "Logo">
+
+<h2> Work </h2>
+
+</section>
+
+
+<section id="second-section-work">
+
+        	<p> Luke continued his training in the years that followed, determined to become a Jedi Knight like his father before him, and found a new mentor in Grand Master Yoda. After his master's death, Skywalker participated in the Battle of Endor in 4 ABY, during which he confronted the Sith Lord Darth Vader, whom he learned was in fact his father, Anakin Skywalker. With Luke's help, Anakin returned to the light side of the Force by killing Galactic Emperor Darth Sidious at the cost of his own life, fulfilling his destiny as the Chosen One. </p>
+
+</section>
+
+
+<section id="third-section-work">
+
+          <p> Many remembered him for destroying the Death Star and killing the Emperor, and as such viewed him as a hero of mythic proportions. Resistance pilot Jessika Pava considered Skywalker to be the greatest X-wing pilot of all time. Some questioned whether or not Luke could have used his powers for evil, while others simply viewed him as a myth. </p>
+
+</section>
+
+
+<footer id="footer">
+
+       <nav id="menu">
+         <ul>
+             <li> <a href= "Index.html" target="_blank"> Home </a> </li>
+             <li> <a href= "AboutMe.html" target="_blank"> About </a> </li>
+             <li> <a href= "MyHero.html" target="_blank"> Hero </a> </li>
+             <li> <a href= "Work.html" target="_blank"> Work </a> </li>
+             <li> <a href= "Influence.html" target="_blank"> Influence </a> </li>
+             <li> <a href= "Gallery.html" target="_blank"> Gallery </a> </li>
+             <li> <a href= "Contact.html" target="_blank"> Contact </a> </li>
+         </ul>
+       </nav>
+
+       <p> <strong> All content rights reserved to Disney© and Lucasfilm Limited© </strong> </p>
+
+</footer>
+
+
+
+
+</body>
+</div>

@@ -1,0 +1,75 @@
+<!Doctype html>
+<html lang= "en">
+    <head>
+        <meta charset="utf-8"/>
+        <title> Gustavo Selemem | 3042264 </title>
+        <link rel = "styleSheet" href ="Style.css"/>
+    </head>
+
+<div>
+
+<body>
+
+
+<section id="first-section-about">
+
+<nav id="menu">
+       <nav id="menu">
+         <ul>
+             <li> <a href= "Index.html" target="_blank"> Home </a> </li>
+             <li> <a href= "AboutMe.html" target="_blank"> About </a> </li>
+             <li> <a href= "MyHero.html" target="_blank"> Hero </a> </li>
+             <li> <a href= "Work.html" target="_blank"> Work </a> </li>
+             <li> <a href= "Influence.html" target="_blank"> Influence </a> </li>
+             <li> <a href= "Gallery.html" target="_blank"> Gallery </a> </li>
+             <li> <a href= "Contact.html" target="_blank"> Contact </a> </li>
+         </ul>
+       </nav>
+
+<img src="Media/Logo.png" width="64px" height="64px" alt = "Logo" title = "Logo">
+
+<h2> About Me </h2>
+
+</section>
+
+
+<section id="second-section-about">
+
+        <h2> About Me </h2>
+        	<p> I'm 24 years old, I'm from São Paulo - Brazil but I've been living in Cork since November 2018. I have a bachelor's degree in Design and I've been working as a Graphic Designer in many different publicity agencies for the past 5 years. I decided to pursue the Computing Science course since I want to follow the UI and UX career. </p>
+
+          <p> As well as my vocation, Design is also one of my passions and today I'm proud to say that I chose this path for my life. Also, if anyone wants to see some of my work you can check <a href= "https://gustavoselemem.myportfolio.com/" target="_blank"> my portfolio </a></p>
+
+</section>
+
+
+<section id="third-section-about">
+
+          <p> I love reading, playing video-games and any nerd stuff. One of my favourite books is Les Misérables by Victor Hugo which I actually have a tattoo of it! Music is also something that is present in every day of my life; I can't even imagine working without Spotify </p>
+
+</section>
+
+
+<footer id="footer">
+
+       <nav id="menu">
+         <ul>
+             <li> <a href= "Index.html" target="_blank"> Home </a> </li>
+             <li> <a href= "AboutMe.html" target="_blank"> About </a> </li>
+             <li> <a href= "MyHero.html" target="_blank"> Hero </a> </li>
+             <li> <a href= "Work.html" target="_blank"> Work </a> </li>
+             <li> <a href= "Influence.html" target="_blank"> Influence </a> </li>
+             <li> <a href= "Gallery.html" target="_blank"> Gallery </a> </li>
+             <li> <a href= "Contact.html" target="_blank"> Contact </a> </li>
+         </ul>
+       </nav>
+
+       <p> <strong> All content rights reserved to Disney© and Lucasfilm Limited© </strong> </p>
+
+</footer>
+
+
+
+
+</body>
+</div>

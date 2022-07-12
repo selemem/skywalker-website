@@ -1,0 +1,74 @@
+<!Doctype html>
+<html lang= "en">
+    <head>
+        <meta charset="utf-8"/>
+        <title> Gustavo Selemem | 3042264 </title>
+        <link rel = "styleSheet" href ="Style.css"/>
+    </head>
+
+<div>
+
+<body>
+
+
+<section id="first-section-influence">
+
+<nav id="menu">
+       <nav id="menu">
+         <ul>
+             <li> <a href= "Index.html" target="_blank"> Home </a> </li>
+             <li> <a href= "AboutMe.html" target="_blank"> About </a> </li>
+             <li> <a href= "MyHero.html" target="_blank"> Hero </a> </li>
+             <li> <a href= "Work.html" target="_blank"> Work </a> </li>
+             <li> <a href= "Influence.html" target="_blank"> Influence </a> </li>
+             <li> <a href= "Gallery.html" target="_blank"> Gallery </a> </li>
+             <li> <a href= "Contact.html" target="_blank"> Contact </a> </li>
+         </ul>
+       </nav>
+
+<img src="Media/Logo.png" width="64px" height="64px" alt = "Logo" title = "Logo">
+
+<h2> Influence </h2>
+
+</section>
+
+
+<section id="second-section-influence">
+
+        	<p> One of the most influential people in the entire galaxy, Luke Skywalker's accomplishments were remembered for decades after the Battle of Endor. Within the annals of the Resistance, basic training would see all pilots in its Starfighter Corps learning the Skywalker Swoop, which was based on Luke's piloting abilities during the Galactic Civil War. </p>
+
+            <p> Skywalker's unlikely story of going from a simple farm boy on Tatooine to a galactic legend gave hope to restless youths on a number of worlds. </p>
+
+</section>
+
+
+<section id="third-section-influence">
+
+            <p> With the Sith's destruction and the subsequent capitulation of the Empire in 5 ABY, Luke Skywalker traveled across the galaxy, searching for knowledge that would aid him in rebuilding the Jedi Order. One of his apprentices was his sister's son, Ben Solo, who inherited the Skywalker bloodline's raw strength and potential for limitless power. </p>
+
+</section>
+
+
+<footer id="footer">
+
+       <nav id="menu">
+         <ul>
+             <li> <a href= "Index.html" target="_blank"> Home </a> </li>
+             <li> <a href= "AboutMe.html" target="_blank"> About </a> </li>
+             <li> <a href= "MyHero.html" target="_blank"> Hero </a> </li>
+             <li> <a href= "Work.html" target="_blank"> Work </a> </li>
+             <li> <a href= "Influence.html" target="_blank"> Influence </a> </li>
+             <li> <a href= "Gallery.html" target="_blank"> Gallery </a> </li>
+             <li> <a href= "Contact.html" target="_blank"> Contact </a> </li>
+         </ul>
+       </nav>
+
+       <p> <strong> All content rights reserved to Disney© and Lucasfilm Limited© </strong> </p>
+
+</footer>
+
+
+
+
+</body>
+</div>

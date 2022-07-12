@@ -1,0 +1,776 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0; 
+}
+
+section {
+  width: 100%;
+  display: table;
+  margin: 0;
+  max-width: none;
+  height: 100vh;
+
+}
+
+#first-section nav ul li {
+	list-style-type: none;
+	text-decoration: none;
+	display: inline;
+}
+
+#first-section nav a {
+	font-family: Arial;
+	font-size: 12px;
+	letter-spacing: 1px;
+	word-spacing: 10px;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: white;
+}
+
+#first-section nav {
+	padding-top: 8px;
+}
+
+#first-section nav a:hover {
+  	color: #81ff12;
+}
+
+#first-section {
+	background-image: url(Media/MainHeader.jpg);
+	height: 100vh;
+  	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+}
+
+#first-section img {
+	 position: absolute;
+	 right: 40px;
+	 top: 40px;
+}
+
+#first-section blockquote {
+	font-family: Arial;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	font-size: 25px;
+	text-align: center;
+	color: white;
+	padding-top: 250px;
+}
+
+#first-section blockquote footer {
+	font-family: Arial;
+	padding-top: 2px;
+	font-style: italic;
+	font-size: 18px;
+}
+
+#second-section {
+	padding: 20px;
+	background-image: url(Media/GustavoHome.jpg);
+	height: 100vh;
+  	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+}
+
+#second-section h2 {
+	font-family: Arial;
+	text-transform: uppercase;
+	letter-spacing: 4px;
+	font-size: 70px;
+	padding: 50px 50px 20px 150px;
+	color: #81ff12;
+}
+
+#second-section p {
+	font-family: Arial;
+	margin-left: 100px;
+	margin-right: 755px;
+	padding-bottom: 10px;
+	letter-spacing: 1px;
+	text-align: right;
+	color: white;
+}
+
+#second-section h3 {
+	font-family: Arial;
+	font-size: 15px;
+	text-transform: uppercase;
+	margin-left: 425px;
+	letter-spacing: 1px;
+	text-align: right;
+	color: black;
+	background-color: #81ff12;
+	padding: 10px;
+	width: 125px;
+}
+
+#second-section a {
+	text-decoration: none;
+	color: black;
+}
+
+#second-section a:hover {
+  	color: white;
+}
+
+#third-section {
+	padding: 20px;
+	background-image: url(Media/BackgrundIndex.jpg);
+	height: 100vh;
+  	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+}
+
+#third-section img {
+    position: absolute;
+    right: 646px;
+    top: 1450px;
+}
+
+#third-section blockquote {
+	font-family: Arial;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	font-size: 20px;
+	padding-right: 250px;
+	padding-left: 250px;
+	text-align: center;
+	color: white;
+	padding-top: 250px;
+}
+
+#third-section blockquote footer {
+	font-family: Arial;
+	padding-top: 30px;
+	font-style: italic;
+	font-size: 18px;
+	color: #81ff12;
+}
+
+#fourth-section {
+	padding: 20px;
+	background-color: black;
+	height: 100vh;
+  	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+}
+
+.container {
+ 	display:grid;
+ 	width:1000px;
+ 	margin:1rem auto;
+ 	grid-template-columns:200fr 200fr 200fr 200fr;
+ 	grid-template-rows: repeat 20%;
+ 	grid-gap:10px;
+ 	padding-top: 115px;
+}
+
+#footer {
+	padding: 20px;
+	background-color: #81ff12;
+	height: 14vh;
+  	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+  	text-align: center;
+}
+
+#footer nav ul li{
+	list-style-type: none;
+	text-decoration: none;
+	display: inline;
+}
+
+#footer nav a{
+	font-family: Arial;
+	font-size: 14px;
+	letter-spacing: 1px;
+	word-spacing: 10px;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: black;
+}
+
+#footer nav a:hover {
+  color: white;
+}
+
+#footer p {
+	font-family: Arial;
+	font-size: 12px;
+}
+
+
+
+
+
+#first-section-about nav ul li {
+	list-style-type: none;
+	text-decoration: none;
+	display: inline;
+}
+
+#first-section-about nav a {
+	font-family: Arial;
+	font-size: 12px;
+	letter-spacing: 1px;
+	word-spacing: 10px;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: white;
+}
+
+#first-section-about nav {
+	padding-top: 8px;
+}
+
+#first-section-about nav a:hover {
+  	color: #81ff12;
+}
+
+#first-section-about {
+	background-image: url(Media/AboutMe.jpg);
+	height: 100vh;
+  	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+}
+
+#first-section-about img {
+  position: absolute;
+  right: 40px;
+  top: 40px;
+}
+
+#first-section-about h2 {
+	font-family: Arial;
+	text-transform: uppercase;
+	letter-spacing: 10px;
+	font-size: 100px;
+	text-align: center;
+	padding-top: 150px;
+	color: #81ff12;
+}
+
+#second-section-about {
+	padding: 20px;
+	background-image: url(Media/GustavoAbout.jpg);
+	height: 100vh;
+  	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+}
+
+#second-section-about h2 {
+	font-family: Arial;
+	text-transform: uppercase;
+	letter-spacing: 4px;
+	font-size: 70px;
+	padding: 40px 40px 40px 300px;
+	color: #81ff12;
+}
+
+#second-section-about p {
+	font-family: Arial;
+	margin-left: 100px;
+	margin-right: 600px;
+	padding-bottom: 5px;
+	letter-spacing: 1px;
+	text-align: right;
+	color: white;
+}
+
+#second-section-about p a {
+	text-decoration: none;
+	color: #81ff12;
+}
+
+#second-section-about a:hover {
+  	color: white;
+}
+
+#third-section-about {
+	padding: 20px;
+	background-image: url(Media/GalaxyBackground.jpg);
+	height: 100vh;
+  	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+}
+
+#third-section-about p {
+	font-family: Arial;
+	letter-spacing: 1px;
+	font-size: 20px;
+	padding-right: 300px;
+	padding-left: 300px;
+	text-align: center;
+	color: white;
+	padding-top: 220px;
+}
+
+
+
+
+#first-section-hero nav ul li {
+	list-style-type: none;
+	text-decoration: none;
+	display: inline;
+}
+
+#first-section-hero nav a {
+	font-family: Arial;
+	font-size: 12px;
+	letter-spacing: 1px;
+	word-spacing: 10px;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: white;
+}
+
+#first-section-hero nav {
+	padding-top: 8px;
+}
+
+#first-section-hero nav a:hover {
+  	color: #81ff12;
+}
+
+#first-section-hero {
+	background-image: url(Media/SecondHeader.jpg);
+	height: 100vh;
+  	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+}
+
+#first-section-hero img {
+  position: absolute;
+  right: 40px;
+  top: 40px;
+}
+
+#first-section-hero h2 {
+	font-family: Arial;
+	text-transform: uppercase;
+	letter-spacing: 10px;
+	font-size: 100px;
+	text-align: center;
+	padding-top: 150px;
+	color: #81ff12;
+}
+
+#second-section-hero {
+	padding: 20px;
+	background-image: url(Media/LukeTattooine.jpg);
+	height: 100vh;
+  	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+}
+
+#second-section-hero h2 {
+	font-family: Arial;
+	text-transform: uppercase;
+	letter-spacing: 4px;
+	font-size: 70px;
+	padding: 60px 100px 20px 225px;
+	color: #81ff12;
+}
+
+#second-section-hero p {
+	font-family: Arial;
+	margin-left: 100px;
+	margin-right: 600px;
+	padding-bottom: 5px;
+	letter-spacing: 1px;
+	text-align: right;
+	color: white;
+}
+
+#third-section-hero video {
+	height: 100vh;
+	width: 100%;
+	background-color: black;
+  	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+}
+
+#fourth-section-hero {
+	background-image: url(Media/LukeYoda.jpg);
+	background-color: black;
+	height: 100vh;
+  	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+}
+
+#fourth-section-hero p {
+	font-family: Arial;
+	margin-left: 100px;
+	margin-right: 800px;
+	margin-top: 300px;
+	letter-spacing: 1px;
+	text-align: center;
+	color: white;
+}
+
+
+
+
+#first-section-work nav ul li {
+	list-style-type: none;
+	text-decoration: none;
+	display: inline;
+}
+
+#first-section-work nav a {
+	font-family: Arial;
+	font-size: 12px;
+	letter-spacing: 1px;
+	word-spacing: 10px;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: white;
+}
+
+#first-section-work nav {
+	padding-top: 8px;
+}
+
+#first-section-work nav a:hover {
+  	color: #81ff12;
+}
+
+#first-section-work {
+	background-image: url(Media/MainHeader.jpg);
+	height: 100vh;
+  	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+}
+
+#first-section-work img {
+  position: absolute;
+  right: 40px;
+  top: 40px;
+}
+
+#first-section-work h2 {
+	font-family: Arial;
+	text-transform: uppercase;
+	letter-spacing: 10px;
+	font-size: 100px;
+	text-align: center;
+	padding-top: 150px;
+	color: #81ff12;
+}
+
+#second-section-work {
+	padding: 20px;
+	background-image: url(Media/LukeVader.jpg);
+	height: 100vh;
+  	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+}
+
+#second-section-work p {
+	font-family: Arial;
+	margin-left: 650px;
+	margin-right: 150px;
+	margin-top: 200px;
+	line-height: 22px;
+	letter-spacing: 1px;
+	text-align: right;
+	color: white;
+}
+
+#third-section-work {
+	padding: 20px;
+	background-image: url(Media/DeathStar.jpg);
+	height: 100vh;
+  	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+}
+
+#third-section-work p {
+	font-family: Arial;
+	letter-spacing: 1px;
+	padding-right: 100px;
+	padding-left: 600px;
+	text-align: left;
+	color: white;
+	padding-top: 230px;
+}
+
+
+
+
+
+
+
+#first-section-influence nav ul li {
+	list-style-type: none;
+	text-decoration: none;
+	display: inline;
+}
+
+#first-section-influence nav a {
+	font-family: Arial;
+	font-size: 12px;
+	letter-spacing: 1px;
+	word-spacing: 10px;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: white;
+}
+
+#first-section-influence nav {
+	padding-top: 8px;
+}
+
+#first-section-influence nav a:hover {
+  	color: #81ff12;
+}
+
+#first-section-influence {
+	background-image: url(Media/SecondHeader.jpg);
+	height: 100vh;
+  	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+}
+
+#first-section-influence img {
+  position: absolute;
+  right: 40px;
+  top: 40px;
+}
+
+#first-section-influence h2 {
+	font-family: Arial;
+	text-transform: uppercase;
+	letter-spacing: 10px;
+	font-size: 100px;
+	text-align: center;
+	padding-top: 150px;
+	color: #81ff12;
+}
+
+#second-section-influence {
+	padding-top: 200px;
+	background-image: url(Media/LukeRebel.jpg);
+	height: 100vh;
+  	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+}
+
+#second-section-influence p {
+	font-family: Arial;
+	margin-left: 720px;
+	margin-right: 100px;
+	margin-top: 20px;
+	padding-bottom: 5px;
+	letter-spacing: 1px;
+	text-align: left;
+	color: white;
+}
+
+#third-section-influence {
+	padding: 20px;
+	background-image: url(Media/GalaxyBackground.jpg);
+	height: 100vh;
+  	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+}
+
+#third-section-influence p {
+	font-family: Arial;
+	letter-spacing: 1px;
+	font-size: 20px;
+	padding-right: 300px;
+	padding-left: 300px;
+	text-align: center;
+	color: white;
+	padding-top: 220px;
+}
+
+
+
+
+
+#first-section-gallery nav ul li {
+	list-style-type: none;
+	text-decoration: none;
+	display: inline;
+}
+
+#first-section-gallery nav a {
+	font-family: Arial;
+	font-size: 12px;
+	letter-spacing: 1px;
+	word-spacing: 10px;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: white;
+}
+
+#first-section-gallery nav {
+	padding-top: 8px;
+}
+
+#first-section-gallery nav a:hover {
+  	color: #81ff12;
+}
+
+#first-section-gallery {
+	background-image: url(Media/MainHeader.jpg);
+	height: 100vh;
+  	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+}
+
+#first-section-gallery img {
+  position: absolute;
+  right: 40px;
+  top: 40px;
+}
+
+#first-section-gallery h2 {
+	font-family: Arial;
+	text-transform: uppercase;
+	letter-spacing: 10px;
+	font-size: 100px;
+	text-align: center;
+	padding-top: 150px;
+	color: #81ff12;
+}
+
+#second-section-gallery {
+	padding: 20px;
+	background-color: black;
+	height: 100vh;
+  	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+}
+
+#second-section-gallery .container {
+ 	display:grid;
+ 	width:1000px;
+ 	margin:1rem auto;
+ 	grid-template-columns:200fr 200fr 200fr;
+ 	grid-template-rows: repeat 20%;
+ 	grid-gap:10px;
+ 	padding-top: 100px;
+ 	padding-bottom: 100px;
+}
+
+
+
+
+#first-section-contact nav ul li {
+	list-style-type: none;
+	text-decoration: none;
+	display: inline;
+}
+
+#first-section-contact nav a {
+	font-family: Arial;
+	font-size: 12px;
+	letter-spacing: 1px;
+	word-spacing: 10px;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: white;
+}
+
+#first-section-contact nav {
+	padding-top: 8px;
+}
+
+#first-section-contacte nav a:hover {
+  	color: #81ff12;
+}
+
+#first-section-contact {
+	background-image: url(Media/SecondHeader.jpg);
+	height: 100vh;
+  	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+}
+
+#first-section-contact img {
+  position: absolute;
+  right: 40px;
+  top: 40px;
+}
+
+#first-section-contact h2 {
+	font-family: Arial;
+	text-transform: uppercase;
+	letter-spacing: 10px;
+	font-size: 100px;
+	text-align: center;
+	padding-top: 150px;
+	color: #81ff12;
+}
+
+#second-section-contact {
+	padding: 10px;
+	background-image: url(Media/LukeGun.jpg);
+	height: 100vh;
+  	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+}
+
+#second-section-contact .container label {
+	color: white;
+	font-family: Arial;
+	font-size: 12px;
+}
+
+#second-section-contact .container {
+	position: absolute;
+  	right: 250px;
+  	top: 620px;
+}
+
+input[type=text], select, textarea {
+  width: 200%;
+  padding: 10px;
+  border: 1px solid #81ff12;
+  margin-bottom: 16px;
+  resize: vertical; 
+}
+
+input[type=submit] {
+  background-color: #81ff12;
+  color: black;
+  text-transform: uppercase;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: white;
+}
+
